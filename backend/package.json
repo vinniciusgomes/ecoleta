@@ -1,28 +1,29 @@
 {
-  "name": "backend",
+  "name": "server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "ts-node-dev src/server.ts node_modules --transpileOnly --ignore-watch",
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "knex:migrate": "knex migrate:latest --knexfile knexfile.ts",
-    "knex:seed": "knex seed:run --knexfile knexfile.ts"
+    "dev": "ts-node-dev --ignore-watch node_modules src/server",
+    "knex:seed": "knex --knexfile knexfile.ts seed:run",
+    "knex:migrate": "knex --knexfile knexfile.ts migrate:latest"
   },
   "keywords": [],
-  "author": "Daniel Obara (https://www.linkedin.com/in/danielobara/)",
+  "author": "",
   "license": "ISC",
   "dependencies": {
+    "@types/express": "^4.17.6",
+    "@types/multer": "^1.4.3",
+    "celebrate": "^12.1.1",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "knex": "^0.21.1",
-    "mongoose": "^5.9.16",
-    "socket.io": "^2.3.0",
+    "multer": "^1.4.2",
     "sqlite3": "^4.2.0"
   },
   "devDependencies": {
     "@types/cors": "^2.8.6",
-    "@types/express": "^4.17.6",
+    "@types/hapi__joi": "^17.1.2",
     "ts-node": "^8.10.2",
     "ts-node-dev": "^1.0.0-pre.44",
     "typescript": "^3.9.3"
