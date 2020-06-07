@@ -3,7 +3,7 @@
 </h1>
 
 <h4 align="center"> 
-	NextLevelWeek 1.0 ♻️
+	NextLevelWeek 1.0 🚀
 </h4>
 <p align="center">
   <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/vinniciusgomes/ecoleta?color=%2304D361">
@@ -48,7 +48,7 @@ Ecoleta is a project developed based on international environment week.
 That aims to connect people to companies that collect specific waste such as light bulbs, batteries, cooking oil, etc.
 
 <h1 align="center">
-    <img alt="Example" title="Example" src=".github/capa.svg" width="500px" />
+    <img alt="Example" title="Example" src=".github/bg.png" width="500px" />
 </h1>
 
 
