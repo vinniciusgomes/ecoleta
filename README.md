@@ -10,7 +10,7 @@
 
   <img alt="Repository size" src="https://img.shields.io/github/repo-size/vinniciusgomes/ecoleta">
 	
-  <a href="https://www.linkedin.com/in/danielobara/">
+  <a href="https://www.linkedin.com/in/vinniciusgomes/">
     <img alt="Made by Vinnicius Gomes" src="https://img.shields.io/badge/made%20by-vinniciusgomes-%2304D361">
   </a>
 
